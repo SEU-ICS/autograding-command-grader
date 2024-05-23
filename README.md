@@ -1,7 +1,7 @@
 ## GitHub Classroom Command Grader
 
 ### Overview
-**GitHub Classroom Command Grader** is a plugin for GitHub Classroom's Autograder. Seamlessly integrate your CS class with GitHub using this action to facilitate the grading process.
+**GitHub Classroom Command Grader** is a plugin for GitHub Classroom's Autograder. It directly uses the output as the score when the command succeeds.
 
 ### Key Features
 - **Automatic Grading**: Evaluate student code submissions and provide immediate feedback.

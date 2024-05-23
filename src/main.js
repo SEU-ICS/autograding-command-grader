@@ -69,10 +69,10 @@ function run() {
 
     const score = Number(output)
     if (isNaN(score)) {
-      throw new Error("command doest not return a number!") 
+      throw new Error(`command outputs \"${output}\", which is not a number!`) 
     }
     if (score > maxScore) {
-      throw new Error("the resulting score is bigger than the maximum score!")
+      throw new Error(`the resulting score ${score} is bigger than the maximum score ${maxScore}!`)
     }
 
     result = generateResult('pass', testName, command, output, endTime - startTime, maxScore, score)

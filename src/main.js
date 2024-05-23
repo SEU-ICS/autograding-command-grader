@@ -64,7 +64,7 @@ function run() {
     }
 
     startTime = new Date()
-    output = execSync(command, {timeout, env, stdio: 'inherit'})?.toString()
+    output = execSync(command, {timeout, env,}).toString().trim()
     endTime = new Date()
 
     const score = Number(output)
